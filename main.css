@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  border: 5px solid black;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+  gap: 10px;
+}
+.all .gray {
+  background-color: lightgray;
+}
+.all .gray:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+.all div:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.all div {
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
